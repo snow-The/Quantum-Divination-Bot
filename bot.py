@@ -15,4 +15,4 @@ async def ping(ctx):
 async def add(ctx, a: int, b: int):
     await ctx.send(a + b)
 
-bot.run("")
+bot.run('')
