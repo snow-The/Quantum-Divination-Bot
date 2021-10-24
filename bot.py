@@ -43,4 +43,4 @@ async def use(ctx):
         await ctx.send(f'正面')
     else:
         await ctx.send('正反面')
-asyncio.get_event_loop().create_task(bot.start('OTAwMzUwNDUyMTMzMTM0MzU3.YXACsw.Trb1rTsTUHPLRdCRESk5q0wRBh0'))
+asyncio.get_event_loop().create_task(bot.start(''))
