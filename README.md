@@ -12,7 +12,7 @@ Hidden IT coolies from Neihu High School--------------------------------Xin Yang
 Developers in the High School Affiliated to Normal University-----------Chi Wei Kao  
 Briefing and introduction writers from Huiwen Senior Middle School------Liam Chang  
 Teaching from Yanping Senior Middle School------------------------------Lee GUAN-TING  
-Foreign computer science students and good at visualization-------------Paridhi Jain
+Foreign computer science students and good at visualization-------------Paridhi Jain  
 Taiwan Student Quantum Compute Society(SQCS) staff  
 Teamsuke------------Zheng-ting Liu  
 coach---------------An-kai Chen  
