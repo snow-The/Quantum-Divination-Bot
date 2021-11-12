@@ -1,22 +1,21 @@
-# 説明介紹
-這是第二次由SQCS舉辦的量子黑客馬拉松比賽
+# Description
+Now we are in qiskithackathon.global21!
 ---------------  
-這裡是參賽第四組的量子卜卦機器人，  
-使用的開發平臺是Anacona3的2.3版本.  
-然後預設python版本是3.8.8,  
-Discord.py是我們目前主要的維護項目，  
-相關的pip包裹我會盡量更新.  
+This is Quantum-Divination-Bot 
+The development platform used is version 2.3 of Anacona3.
+Then the default python version is 3.8.8,
+I will update relevant pip package information as much as possible.
 ---------------  
-# 開發者資訊
-參賽人員
-來自内湖高中的隱藏IT黑工------楊昕  
-提供很多建議的師大附中開發人員-----嚴茂廷  
-正在學習的師大附中開發人員---------高啓幃  
-來自惠文高級中學的人員-------------張瀚濂  
-來自延平高中的開發人員------------ 李冠霆  
-SQCE人員  
-隊輔SQCS----------------------劉政廷  
-教練SQCS----------------------陳安楷  
- # 偉大的額外幫助  
-Discord伺服器提供者小殺  
+# Developer Information
+Participants
+Hidden IT coolies from Neihu High School--------------------------------Xin Yang
+Developers in the High School Affiliated to Normal University-----------Chi Wei Kao
+Briefing and introduction writers from Huiwen Senior Middle School------Liam Chang 
+Teaching from Yanping Senior Middle School------------------------------Lee GUAN-TING
+Taiwan Student Quantum Compute Society(SQCS) staff
+Teamsuke------------Zheng-ting Liu
+coach---------------An-kai Chen 
+Guide---------------Wen-Sen
+ # Great extra help
+Discord bot Server provider xiaosha 
 https://xiaosha.wtf/
