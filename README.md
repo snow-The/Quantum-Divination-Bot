@@ -1,11 +1,14 @@
 # Description  
 Now we are in qiskithackathon.global21!   
----------------  
-This is Quantum-Divination-Bot   
-The development platform used is version 2.3 of Anacona3.  
-Then the default python version is 3.8.8,  
-I will update relevant pip package information as much as possible.  
----------------  
+ ---------------  
+This is Quantum-Divination-Bot  
+Hi everyone! Here is the DIVINATION BLOCKS BOT.  
+We made a robot that is ran on jupyter-lab and show the answer on discord.  
+We want to choose some kind of game that can both have random properties of quantum and it's part of our local culture.  
+After some brainstorming, we found Jiaobei perfectly meet our request.  
+We want the robot can be a accessible way to help people learn quamtum circuit.  
+Thus we designed three mode that can easily teach people about the quantum probability.  
+ ---------------  
 # Developer Information  
 Participants  
 Hidden IT coolies from Neihu High School--------------------------------Xin Yang  
