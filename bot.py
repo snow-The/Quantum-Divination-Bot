@@ -65,21 +65,24 @@ async def normal(ctx):
     qc = circuit.compose(circuit, range(2), front=True)
     qc_compiled = transpile(qc, backend)
     job_sim = backend.run(qc_compiled, shots=6144)
-    await ctx.send("normal mode!")
+    await ctx.send("normal mode!", file=discord.File('c-normal.png'))
+    await ctx.send(file=discord.File('normal.png'))
 @bot.command()
 async def cnot1to0(ctx):
     backend = QasmSimulator()
     qc = circuit1_0.compose(circuit1_0, range(2), front=True)
     qc_compiled = transpile(qc, backend)
     job_sim = backend.run(qc_compiled, shots=6144)
-    await ctx.send("1to0 mode")
+    await ctx.send("1to0 mode", file=discord.File('c-1to0.png'))
+    await ctx.send(file=discord.File('1to0.png'))
 @bot.command()
 async def cnot0to1(ctx):
     backend = QasmSimulator()
     qc = circuit0_1.compose(circuit0_1, range(2), front=True)
     qc_compiled = transpile(qc, backend)
     job_sim = backend.run(qc_compiled, shots=6144)
-    await ctx.send("0to1 mode")
+    await ctx.send("0to1 mode", file=discord.File('c-0to1.png'))
+    await ctx.send(file=discord.File('0to1.png'))
 @bot.command()
 async def shot(ctx):
     result_sim = job_sim.result()
@@ -101,11 +104,12 @@ async def jiaobei(ctx):
             mx=counts['11']
         #next
         if mx == counts['00']:
-            await ctx.send("laughing answer")
+            await ctx.send("**laughing answer**", file=discord.File('00.png'))
         elif mx == counts['10']:
-            await ctx.send("divine answer")
+            await ctx.send("**divine answer**", file=discord.File('10.png'))
         elif mx == counts['01']:
-            await ctx.send("divine answer")
+            await ctx.send("**divine answer**", file=discord.File('01.png'))
         elif mx == counts['11']:
-            await ctx.send("angry answer")
+            await ctx.send("**angry answer**", file=discord.File('11.png'))
+    await ctx.send("**end**")
 asyncio.get_event_loop().create_task(bot.start('your token'))
